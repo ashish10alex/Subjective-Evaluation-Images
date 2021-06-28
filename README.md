@@ -29,8 +29,8 @@ Please skip to bullet point 2 as I have aleady generated these meta data files.
 <h3>2. Run the server locally </h3> 
 
     ```
-    git clone https://github.com/ashish10alex/web-drone-project.git
-    cd web-drone-project
+    git clone https://github.com/ashish10alex/Subjective-Evaluation-Images.git
+    cd Subjective-Evaluation-Images
     python3 -m venv .
     source bin/activate
     pip install -e pymushra
