@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<br>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<br>
+
+<h3>Experiments</h3>
+<div id="grid">
+    <div id="box">
+            {% if done_files %}
+            <h3> Done </h3>
+            <ol>
+                {% for done in done_files %}
+                <li> {{done}} </li>
+                {%endfor%}
+            </ol>
+            {% endif %}
+    </div>
+
+    <div id="box">
+            {% if left_files %}
+            <h3> Left </h3>
+            <ol>
+                {% for left in left_files %}
+                <li> {{left}} </li>
+                {%endfor%}
+            </ol>
+            {% endif %}
+    </div>
+<!-- End og first grid -->
+</div>
+{% endblock %}
