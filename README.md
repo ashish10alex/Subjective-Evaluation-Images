@@ -1,4 +1,4 @@
-# web-drone-project
+# Subjective evaluation comparing images
 This repository is inspired from [Webmushra](https://github.com/audiolabs/webMUSHRA) with [Pymushra](https://github.com/nils-werner/pymushra) which provides a python based backend to store results. 
 
 This project has following key modifications from above repository to accomodate it for our AB testing experiments. 
@@ -14,15 +14,9 @@ Please skip to bullet point 2 as I have aleady generated these meta data files.
 
 
 <h3>1.  Meta data Genration </h3> 
-    If you want to generate your own meta data you will need to change paths accordingly. The current paths are based on paths from Jade and my personal PC
-
-    `meta_data.ipynb` - Generate CSV paths for audio files for various SNRs and mdoels
-
-
+To generate `yaml` files have a look at
 
     `generate_yaml_full.ipynb` - Yaml files for remaining 4 algoritms `['DCUNet', 'DPTNet', 'SMoLnet', 'WaveUNet']` 
-
-    `generate_yaml_full-noisy_baseline_combinations.ipynb` - Yaml files for Baseline model which will be compared to Input only. 
 
     
         
