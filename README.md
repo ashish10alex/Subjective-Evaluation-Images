@@ -10,16 +10,12 @@ This project has following key modifications from above repository to accomodate
 
 ##  Setup steps
 
-Please skip to bullet point 2 as I have aleady generated these meta data files. 
+Please skip to bullet point 2 as I have already generated these meta data files. 
 
 
 <h3>1.  Meta data Genration </h3> 
-To generate `yaml` files have a look at
+To generate `yaml` files have a look at - `meta_data.py`
 
-    `generate_yaml_full.ipynb` - Yaml files for remaining 4 algoritms `['DCUNet', 'DPTNet', 'SMoLnet', 'WaveUNet']` 
-
-    
-        
 <h3>2. Run the server locally </h3> 
 
     ```
@@ -35,14 +31,11 @@ To generate `yaml` files have a look at
 
 <h3>3.  Database </h3>
 
-* But the main database which we will use for evaulating results is in the root of the repository -  `database_baseline_vs_noisy.csv` and `database_other_model_combinations.csv`
+* But the main database which we will use for evaluating results is in the root of the repository -  `database_baseline_vs_noisy.csv` and `database_other_model_combinations.csv`
 
 * To view the results for each subset can be viewed by switching btw dropdown menus - [Error handling TBD]
    * `http://localhost:5000/result` 
  
-
-*  To see all the results for both sets of experiments go to -  `http://localhost:5000/admin` and click on `preview`
-
 
 <h2>4.  Monitor Experiments </h2>
 
