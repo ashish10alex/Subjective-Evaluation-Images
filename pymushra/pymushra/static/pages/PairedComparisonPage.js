@@ -95,6 +95,17 @@ PairedComparisonPage.prototype.render = function (_parent) {
   } else {
 	content = this.pageConfig.content;
   }
+
+  setTimeout(RemoveImages, 3000)
+
+  function RemoveImages(){
+    console.log('Removing images')
+    content = " "
+    img_elem_1 = document.getElementsByClassName('tempimage')[0]
+    img_elem_2 = document.getElementsByClassName('tempimage')[1]
+    img_elem_1.remove()
+    img_elem_2.remove()
+  }
 	
   var p = $("<p>" + content + "</p>");
   div.append(p);

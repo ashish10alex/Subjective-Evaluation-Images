@@ -1,6 +1,6 @@
 bufferSize: 2048
 pages:
-- content: '<img src="static/image1.png"> <img src="static/image2.png">'
+- content: '<img src="static/image1.png" class="tempimage"> <img src="static/image2.png" class="tempimage">'
   enableLooping: false
   id: trialAB2
   name: null
@@ -11,7 +11,7 @@ pages:
     C2: static/image2.png
   type: paired_comparison
   unforced: null
-- content: '<img src="static/image1.png"> <img src="static/image2.png">'
+- content: '<img src="static/image1.png" class="tempimage"> <img src="static/image2.png" class="tempimage">'
   enableLooping: false
   id: trialAB2
   name: null
